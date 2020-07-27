@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Milestone</string>
+    <string name="txt_long_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged
+    </string>
+    <string name="txt_short_heading">
+        Where does it come from?
+    </string>
+
+    <string name="txt_title">Title</string>
+    <string name="txt_desc">Description</string>
+    <string name="txt_start_date">Start Date</string>
+    <string name="txt_end_date">End Date</string>
+    <string name="txt_crr_progress">Current Progress</string>
+    <string name="txt_max_progress">Max Progress</string>
+    <string name="txt_add">Add</string>
+    <string name="txt_update">Update</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_date_format">%d/%d/%d</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:cardBackgroundColor="@color/colorWhite"
+        android:foreground="@drawable/ripple_white_bg"
+        card_view:cardUseCompatPadding="true"
+        android:elevation="10dp" android:focusable="true">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="@string/txt_short_heading"
+                android:layout_width="wrap_content"
+                android:textStyle="bold" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryText"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textAlignment="viewStart"
+                android:id="@+id/txt_ms_title"/>
+
+        <TextView
+                android:text="@string/txt_long_description"
+                android:layout_width="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textAlignment="viewStart"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txt_ms_desc"/>
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:id="@+id/pb_ms"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:rcSecondaryProgress="30"
+                app:rcMax="100"
+                app:rcRadius="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundPadding="10dp"
+                app:rcReverse="false"
+                app:rcBackgroundColor="@color/colorGray"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txt_start_date"
+                      android:layout_alignParentStart="true"
+                      android:textStyle="bold"
+                      android:text="@string/app_name"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txt_end_date"
+                      android:textStyle="bold"
+                      android:layout_alignParentEnd="true"
+                      android:text="@string/app_name"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

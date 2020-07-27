@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49073836603",
+    "firebase_url": "https://milestone-ff945.firebaseio.com",
+    "project_id": "milestone-ff945",
+    "storage_bucket": "milestone-ff945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49073836603:android:2774e383293ce7ec",
+        "android_client_info": {
+          "package_name": "in.trentweet.milestone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49073836603-2mn085snj7kkoja9q2hdth51l8vqmf33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.trentweet.milestone",
+            "certificate_hash": "38fb009d49d1861382ed9076c37925ac35b08b3a"
+          }
+        },
+        {
+          "client_id": "49073836603-oceced0gg2ufb41edkq32qgbnvo3vuvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEsx4kvdJtfoSFeEWMrVkUPFDRpWboszk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49073836603-oceced0gg2ufb41edkq32qgbnvo3vuvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
